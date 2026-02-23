@@ -1,0 +1,71 @@
+/* ========== TARJETAS DE PRODUCTOS ========== */
+.product-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: blanchedalmond;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+.card-img-top {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+.card-title {
+    font-weight: 600;
+    color: #212529;
+}
+
+/* Badges personalizados */
+.badge {
+    font-size: 0.85rem;
+    padding: 0.4em 0.8em;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.badge.bg-success {
+    background-color: #28a745 !important;
+}
+
+.badge.bg-warning {
+    background-color: #ffc107 !important;
+    color: #212529;
+}
+
+.badge.bg-danger {
+    background-color: #dc3545 !important;
+}
+
+/* Botones dentro de tarjetas */
+.btn-outline-primary {
+    border-color: #0d6efd;
+    color: #0d6efd;
+    border-radius: 20px;
+    padding: 0.25rem 1rem;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.btn-outline-danger {
+    border-color: #dc3545;
+    color: #dc3545;
+    border-radius: 20px;
+    padding: 0.25rem 1rem;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: white;
+}

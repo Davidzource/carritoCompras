@@ -1,0 +1,37 @@
+/* ========== FOOTER ========== */
+footer {
+    background-color: #1e1e2f !important;
+}
+
+footer h5 {
+    color: #ffc107;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+footer h5::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #ffc107;
+}
+
+footer ul li {
+    margin-bottom: 8px;
+}
+
+footer a {
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffc107 !important;
+    text-decoration: underline !important;
+}
+
+footer hr {
+    opacity: 0.2;
+}

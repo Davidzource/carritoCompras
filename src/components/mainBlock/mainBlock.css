@@ -1,0 +1,69 @@
+
+/* ========== FORMULARIO ========== */
+.form-card {
+    border: none;
+    border-radius: 20px;
+    background: rgb(114, 80, 80);
+}
+
+.form-label {
+    font-weight: 600;
+    color: #16181b;
+    margin-bottom: 0.3rem;
+    font-size: 0.95rem;
+}
+
+.form-control, .form-select, .input-group-text {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 0.6rem 1rem;
+    transition: all 0.2s ease;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+    outline: none;
+}
+
+.input-group-text {
+    background-color: #a7afb6;
+    border-right: none;
+    border-radius: 10px 0 0 10px;
+}
+
+.input-group .form-control {
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+}
+
+/* Botones del formulario */
+.btn-primary {
+    background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+    border: none;
+    border-radius: 30px;
+    padding: 0.6rem 2rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #0b5ed7, #0a58ca);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(13, 110, 253, 0.3);
+}
+
+.btn-outline-secondary {
+    border-radius: 30px;
+    padding: 0.6rem 2rem;
+    font-weight: 500;
+    border: 2px solid #6c757d;
+    color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(108, 117, 125, 0.3);
+}

@@ -1,0 +1,52 @@
+.propsMainContainer {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 60px 20px;
+  min-height: 100vh;
+}
+
+.propsMainTitle {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #1e1e1e;
+}
+
+.propsMainDescription {
+  max-width: 750px;
+  margin: 0 auto 50px auto;
+  font-size: 18px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.avatarsWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.avatarProfileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatarProfileImage {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.avatarProfileImage:hover {
+  transform: scale(1.05);
+}
+
+.avatarProfileName {
+  font-size: 20px;
+  font-weight: 500;
+  color: #222;
+}
