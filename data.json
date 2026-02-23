@@ -1,0 +1,52 @@
+{
+    "productos": [
+    {
+        "id": 1,
+        "nombre": "Auriculares Bluetooth",
+        "precio": 159900,
+        "moneda": "COP",
+        "estado": "En stock",
+        "stock": 25
+    },
+    {
+        "id": 2,
+        "nombre": "Teclado Mecánico",
+        "precio": 249000,
+        "moneda": "COP",
+        "estado": "Pocas unidades",
+        "stock": 3
+    },
+    {
+        "id": 3,
+        "nombre": "Smartwatch Deportivo",
+        "precio": 329000,
+        "moneda": "COP",
+        "estado": "Agotado",
+        "stock": 0
+    },
+    {
+        "id": 4,
+        "nombre": "Cámara Compacta",
+        "precio": 1099000,
+        "moneda": "COP",
+        "estado": "En stock",
+        "stock": 15
+    },
+    {
+        "id": 5,
+        "nombre": "Mouse Inalámbrico",
+        "precio": 49900,
+        "moneda": "COP",
+        "estado": "En stock",
+        "stock": 40
+    },
+    {
+        "id": 6,
+        "nombre": "SSD 1TB",
+        "precio": 399000,
+        "moneda": "COP",
+        "estado": "Pocas unidades",
+        "stock": 2
+    }
+]
+}
