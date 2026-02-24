@@ -4,12 +4,14 @@ import './products.css';
 const Products = () => {
     const [productList, setProductList] = React.useState([]);
 
+
     React.useEffect(() => {
-        fetch('/data.json')
+        fetch('data.json') // Corrección: elimina la barra inicial
             .then(response => response.json())
             .then(data => setProductList(data.productos))
             .catch(error => console.error('Error al cargar los productos:', error));
     }, []);
+
 
     return (
         <>
